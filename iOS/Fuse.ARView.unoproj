@@ -1,0 +1,17 @@
+{
+  "RootNamespace":"",
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+
+  ],
+  "Includes": [
+    "*",
+    "iOS/*",
+    "*.png:Bundle",
+    "*.uno:Source",
+    "*.h:CHeader:iOS",
+    "*.m:CSource:iOS",
+  ]
+}
+

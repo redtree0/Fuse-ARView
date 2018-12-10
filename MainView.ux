@@ -1,0 +1,21 @@
+<App>
+	<ClientPanel>
+		<NativeViewHost>
+			<!-- <ARView ux:Name="ARView"/> -->
+			<!-- <ARView ux:Name="ARView" ShowStatistics="true" Debug="true" File=""> -->
+			<ARView ux:Name="ARView" PlaneFile="iOS/tron_grid.png" ShowStatistics="true" Debug="true" >
+
+				<!-- <ARNodes /> -->
+				<!-- <Abox width="10.0" height="10.0" length="10.0" x="0.0" y="0.0" z="0.0" /> -->
+			</ARView>
+			<JavaScript>
+				console.log(JSON.stringify(ARView));
+				//console.log(ARView.SetTilt([]));
+			</JavaScript>
+			<!-- <MapView Latitude="59.911567" Longitude="10.741030" Zoom="10">
+				<MapMarker Latitude="59.911567" Longitude="10.741030" Label="Fuse HQ"/>
+			</MapView> -->
+			
+		</NativeViewHost>
+	</ClientPanel>
+</App>

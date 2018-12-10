@@ -1,0 +1,17 @@
+{
+  "RootNamespace":"",
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+     "Fuse.Maps",
+  ],
+  "Projects": [
+    "iOS/Fuse.ARView.unoproj",
+  ],
+  "Includes": [
+    "*",
+    "iOS/*",
+    "iOS/*.png:Bundle",
+  ]
+}
+
